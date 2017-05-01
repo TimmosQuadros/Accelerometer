@@ -18,7 +18,6 @@ Also we need to extend from AppCompatActivity() and we need to implement the Sen
 Class representing a sensor. Use getSensorList(int) to get the list of available Sensors.
 
 ```kotlin
-sm = getSystemService(Context.SENSOR_SERVICE) as SensorManager
 sm.getSensorList(Sensor.TYPE_ALL)
 ```
 
